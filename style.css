@@ -1,0 +1,338 @@
+
+/* GENERAL */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263238;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color:  #4597b3;
+    padding: 15px 0;
+    color: #ebf0f3;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.navbar-brand img {
+    margin-right: 8px;
+}
+
+.nav-link {
+    margin-left: 12px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #F4C542 !important;
+}
+header{
+    box-shadow:0 3px 12px #777;
+    ;
+}
+
+
+
+/* HERO */
+
+.hero {
+    background:
+        linear-gradient(rgba(0, 35, 50, 0.55),
+                        rgba(0, 35, 50, 0.55)),
+        url("paysage.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* BUTTONS */
+
+.btn-explorer {
+    background-color: #F4C542;
+    color: #4597b3;
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-explorer:hover {
+    background-color: #D69A43;
+    color: white;
+}
+
+
+/* TITLES */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: #4597b3;
+    font-weight: bold;
+}
+
+.section-title p {
+    color: #777;
+}
+
+
+/* ABOUT */
+
+.about-text {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+/* ACTIVITIES */
+
+.activities-section {
+    background-color: #F2F8F8;
+}
+
+.activity-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.activity-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.activity-card img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.category {
+    color: #16A6A1;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-title {
+    color: #4597b3;
+    margin-top: 10px;
+}
+
+.price {
+    color: #D69A43;
+    font-weight: bold;
+}
+
+.btn-details {
+    background-color: #4597b3;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-details:hover {
+    background-color: #16A6A1;
+    color: white;
+}
+
+
+/* ADVANTAGES */
+
+.advantage {
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.advantage:hover {
+    background-color: #E9F5F4;
+    transform: translateY(-5px);
+}
+
+.advantage h3 {
+    font-size: 40px;
+}
+
+.advantage h5 {
+    color: #4597b3;
+    font-weight: bold;
+}
+
+
+/* RESERVATION BANNER */
+
+.reservation-banner {
+    background-color: #E9F5F4;
+}
+
+.reservation-banner h2 {
+    color: #edf3f7;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #4597b3;
+    color: white;
+    padding: 40px 0 15px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #F4C542;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 400px;
+        padding: 40px 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .footer-links a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+}
+
+/* STYLE DE LA PAGE AGENDA */
+
+table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #4597b3;
+    color: white;
+    padding: 16px;
+}
+
+.table tbody td {
+    padding: 14px;
+}
+
+.table tbody tr:hover {
+    background-color: #e8f5f2;
+}
+
+.table caption {
+    color: #555;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+/* PAGE RESERVATION */
+
+#formReservation h4 {
+    color: #4597b3;
+    font-weight: bold;
+}
+
+#formReservation .form-control,
+#formReservation .form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#formReservation .form-control:focus,
+#formReservation .form-select:focus {
+    border-color: #16877b;
+    box-shadow: 0 0 5px rgba(22, 135, 123, 0.3);
+}
+
+#resultat {
+    border-radius: 12px;
+    white-space: pre-line;
+}
+
+/* Illustration de la page contact */
+.contact-map {
+    background: linear-gradient(135deg, #d8f3ed, #b5dce8);
+    color: #4597b3;
+    border: 2px solid #b5dce8;
+    min-height: 200px;
+}
+
+/* Formulaire de contact */
+#formContact .form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+#formContact .form-control:focus {
+    border-color: #159a91;
+    box-shadow: 0 0 5px rgba(21, 154, 145, 0.3);
+}
+
+#formContact button {
+    background-color: #159a91;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#formContact button:hover {
+    background-color: #11766f;
+}
+

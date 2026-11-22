@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agenda | Cap Bon Explorer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="loogo.png"
+                         alt="Logo Cap Bon Explorer"
+                         width="160" id="i1">
+                    Cap Bon Explorer
+                </a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">
+                                Accueil
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="activites.html">
+                                Activités
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="agenda.html">
+                                Agenda
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">
+                                Réservation
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main>
+
+        <!-- TITRE -->
+        <section class="container text-center py-5">
+
+            <h1 class="fw-bold">Notre agenda</h1>
+
+            <p class="text-muted">
+                Retrouvez les prochaines expériences et événements
+                organisés dans les différentes régions du Cap Bon.
+            </p>
+
+        </section>
+
+
+        <!-- TABLEAU DES EVENEMENTS -->
+        <section class="container mb-5">
+
+            <h2 class="mb-4">Les événements à venir</h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-striped table-hover
+                              table-bordered text-center align-middle">
+
+                    <caption class="caption-top">
+                        Calendrier indicatif des activités Cap Bon Explorer
+                    </caption>
+
+                    <thead class="table-dark">
+
+                        <tr>
+                            <th>Date</th>
+                            <th>Activité</th>
+                            <th>Heure</th>
+                            <th>Lieu</th>
+                            <th>Tarif</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>05/12/2026</td>
+                            <td>Promenade photographique</td>
+                            <td>09:30</td>
+                            <td>Hammamet</td>
+                            <td>30 TND</td>
+                        </tr>
+
+                        <tr>
+                            <td>12/12/2026</td>
+                            <td>Initiation à la poterie</td>
+                            <td>10:00</td>
+                            <td>Nabeul</td>
+                            <td>35 TND</td>
+                        </tr>
+
+                        <tr>
+                            <td>19/12/2026</td>
+                            <td>Randonnée découverte</td>
+                            <td>08:30</td>
+                            <td>Cap Bon</td>
+                            <td>25 TND</td>
+                        </tr>
+
+                        <tr>
+                            <td>09/01/2027</td>
+                            <td>Découverte de la médina</td>
+                            <td>10:00</td>
+                            <td>Nabeul</td>
+                            <td>20 TND</td>
+                        </tr>
+
+                        <tr>
+                            <td>16/01/2027</td>
+                            <td>Peinture sur céramique</td>
+                            <td>14:00</td>
+                            <td>Nabeul</td>
+                            <td>25 TND</td>
+                        </tr>
+
+                        <tr>
+                            <td>23/01/2027</td>
+                            <td>Découverte du marché local</td>
+                            <td>09:00</td>
+                            <td>Nabeul</td>
+                            <td>15 TND</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROCHAINES EXPERIENCES -->
+        <section class="container mb-5">
+
+            <div class="p-4 rounded-4 text-center"
+                 style="background-color: #e8f5f2;">
+
+                <h2 class="fw-bold mb-3">
+                    Prochaines expériences
+                </h2>
+
+                <p>
+                    Envie de participer à une aventure ?
+                    Découvrez nos activités et préparez votre visite.
+                </p>
+
+                <a href="activites.html"
+                   class="btn btn-primary me-2">
+                    Découvrir les activités
+                </a>
+
+                <a href="reservation.html"
+                   class="btn btn-success">
+                    Simuler une réservation
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white py-4"
+            style="background-color: #4597b3;">
+
+        <p class="mb-1">© 2026 Cap Bon Explorer</p>
+
+        <a href="index.html" class="text-white">
+            Retour à l'accueil
+        </a>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
